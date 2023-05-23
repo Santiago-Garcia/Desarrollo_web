@@ -1,0 +1,183 @@
+// Scss Document
+
+@charset "utf-8";
+/* CSS Document */
+	.botones {
+    	margin-top:35px;
+        
+    }
+
+/*CSS del footer*/
+.footer{
+	display:grid; 
+	grid-template-columns: 33.3% 33.3% 33.3%;
+	grid-auto-rows: auto;
+	justify-content: space-around;
+	background-color: #333;
+	
+	.iconos{
+	display: flex;
+	text-align: center;
+}
+
+	.icono-chico{
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+	margin-left: 35%;
+	margin-top: 10px;
+}
+
+}
+
+
+.espacio{
+	width: 100%;
+	height: 20px;
+}
+
+
+/*Estilos de texto*/
+.style1{
+	color: white;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.style2{
+	color: white;
+	text-align: center;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+}
+
+.style3{
+	color: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 60px;
+}
+
+
+/*CSS de la presentacion del inicio*/
+
+.inicio{
+	display: grid;
+	grid-template-columns: 33.3% 33.3% 33.3%;
+	justify-content: space-around;
+	column-gap: 10px #333;
+	grid-row-gap: 20px #333;
+	background-color: #333;
+}
+
+.grid-item-inicio{
+	border:solid 20px #333;
+	background-color: #333;
+}
+
+.primer-item{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	background-color: #2697B5;
+}
+
+.segundo-item{
+	width: 400px;
+	height: 400px;
+	border-radius: 20px;	
+}
+
+.tercer-item{
+	width: 400px;
+	height: 400px;
+	border-radius: 20px;	
+	background-color: #333;
+}
+
+.cuarto-item{
+	grid-column-start: 2;
+	grid-column-end: 4;
+	background-color: #2697B5;
+}
+
+
+/* navbar con bootstrap*/
+
+
+
+.navbar-nav .nav-link{
+	color: white;
+	font-family: sans Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-weight: bold;
+	transition: 0.2s;
+		
+	
+}
+
+.navbar-nav .nav-link:hover{
+	color: #2697B5;
+	font-size: 18px;
+	border: 1px solid #2697B5;
+
+}
+
+.navbar-nav .nav-link:active{
+ color: white;
+}
+
+.navbar-nav .navbar-toggler-icon{
+	background-color: white;
+}
+
+.navbar-toggler-icon:hover{
+	bacckground-color: #2697B5;
+}
+
+
+
+
+
+
+
+
+/*equipo*/
+
+.name {
+  color: blue;
+}
+
+.work {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.about span {
+  font-size: 13px;
+}
+
+.v-profile {
+  color: blue;
+  cursor: pointer;
+}
+
+.box {
+  -webkit-box-shadow: 13px 12px 5px -10px rgba(196,194,196,0.72);
+  -moz-box-shadow: 13px 12px 5px -10px rgba(196,194,196,0.72);
+  box-shadow: 13px 12px 5px -10px rgba(196,194,196,0.72);
+}
+
+.col-md-3 {
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+

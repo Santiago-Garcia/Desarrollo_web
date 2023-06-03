@@ -1,0 +1,31 @@
+// Scss Document
+
+.navbar-nav .nav-link{
+	color: white;
+	font-family: sans Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-weight: bold;
+	transition: 0.2s;
+		
+	
+}
+
+.navbar-nav .nav-link:hover{
+	color: #2697B5;
+	font-size: 18px;
+	border: 1px solid #2697B5;
+
+}
+
+.navbar-nav .nav-link:active{
+ color: white;
+}
+
+.navbar-nav .navbar-toggler-icon{
+	background-color: white;
+}
+
+.navbar-toggler-icon:hover{
+	bacckground-color: #2697B5;
+}
+
+

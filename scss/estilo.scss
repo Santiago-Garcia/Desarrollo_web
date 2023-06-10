@@ -86,11 +86,11 @@
 
 /*efectos de hover para el catalogo*/
 .hover-zoom img {
-			transition: transform 0.3s; /* Agrega una transición suave */
+			transition: transform 0.3s;
 		}
 
 		.hover-zoom:hover img {
-			transform: scale(1.05); /* Aplica un efecto de zoom out al hacer hover */
+			transform: scale(1.05); 
 		}
 
 .espacio{

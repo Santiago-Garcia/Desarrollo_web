@@ -1,9 +1,22 @@
 .footer {
   background-color: #333; }
-
-.logoempresa {
-  width: 100%;
-  height: auto; }
+  .footer .redessociales .facebook {
+    background-color: #3b5998; }
+  .footer .redessociales .twitter {
+    background-color: #55acee; }
+  .footer .redessociales .google {
+    background-color: #dd4b39; }
+  .footer .redessociales .instagram {
+    background-color: #ac2bac; }
+  .footer .redessociales .linkedin {
+    background-color: #0082ca; }
+  .footer .redessociales .github {
+    background-color: #333333; }
+  .footer .logoempresa {
+    width: 100%;
+    height: auto; }
+  .footer .links {
+    text-decoration: none; }
 
 /*Estilos de texto*/
 .style1 {
@@ -32,6 +45,15 @@
   font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
   font-size: 14px; }
 
+.der {
+  text-align: right; }
+
+.med {
+  text-align: center; }
+
+.subrayado {
+  text-decoration: underline; }
+
 .navbar-nav .nav-link {
   color: white;
   font-family: sans Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
@@ -50,7 +72,10 @@
   background-color: white; }
 
 .navbar-toggler-icon:hover {
-  bacckground-color: #2697B5; }
+  background-color: #2697B5; }
+
+.navbar {
+  background-color: #333; }
 
 /* CSS Document */
 .botones {
@@ -128,3 +153,9 @@
 
 .botonsubir {
   scroll-behavior: smooth; }
+
+.celeste {
+  background-color: lightskyblue; }
+
+.blanco {
+  background-color: aliceblue; }

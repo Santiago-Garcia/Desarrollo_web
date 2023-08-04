@@ -1,24 +1,28 @@
-// JavaScript Document
 
-function comprar() {
-	const productos = [
-		{ nombre: "disco", precio: 350 },
-		{ nombre: "reloj", precio: 5000 },
-		{ nombre: "auriculares", precio: 2800 },];
+function addToCart(productName, price) {
+  let cart = JSON.parse(localStorage.getItem('cart')) || [];
+  const existingProduct = cart.find((item) => item.name === productName);
 
-	let validado = false;
-	do {
-		let productoseleccionado = prompt("Ingrese el producto que desea comprar");
+  if (existingProduct) {
+    existingProduct.quantity += 1;
+  } else {
+    const newProduct = {
+      name: productName,
+      price: price,
+      quantity: 1,
+    };
+    cart.push(newProduct);
+  }
 
-		const productoEncontrado = productos.find(
-			(producto) => producto.nombre === productoseleccionado.toLowerCase()
-		);
-		if (productoEncontrado) {
-			validado = true;
-			alert("El producto que usted va a comprar es " + productoEncontrado.nombre + " por un valor de $" + productoEncontrado.precio);
-		} else {
-			alert("El producto que eligió no existe o no está disponible");
-		}
-	} while (!validado);
+  localStorage.setItem('cart', JSON.stringify(cart));
+
+Swal.fire({
+position: 'top-end',
+icon: 'success',
+title: 'Producto agregado. Haga click en el icono del carrito para finalizar la compra',
+showConfirmButton: false,
+timer: 1500
+})
 }
-comprar();
+
+
